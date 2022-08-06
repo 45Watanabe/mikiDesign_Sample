@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3A1F722892BAA9009CE32F /* WatanabeDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F712892BAA9009CE32F /* WatanabeDesignApp.swift */; };
+		EA3A1F742892BAA9009CE32F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F732892BAA9009CE32F /* ContentView.swift */; };
+		EA3A1F762892BAAA009CE32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1F752892BAAA009CE32F /* Assets.xcassets */; };
+		EA3A1F792892BAAA009CE32F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1F782892BAAA009CE32F /* Preview Assets.xcassets */; };
+		EA3A1F802892BB3D009CE32F /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F7F2892BB3D009CE32F /* ControllerView.swift */; };
+		EA3A1F832892BB63009CE32F /* ControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F822892BB63009CE32F /* ControllerModel.swift */; };
+		EA3A1F852892BC6A009CE32F /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F842892BC6A009CE32F /* ShapeView.swift */; };
+		EA3A1F872892BCD5009CE32F /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F862892BCD5009CE32F /* LayoutView.swift */; };
+		EA3A1F892892BCE1009CE32F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F882892BCE1009CE32F /* EditView.swift */; };
+		EA3A1F8B2892BCFD009CE32F /* EditButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F8A2892BCFD009CE32F /* EditButtonsView.swift */; };
+		EA3A1F8F2892BD67009CE32F /* LayoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F8E2892BD67009CE32F /* LayoutModel.swift */; };
+		EA3A1F912892BD7E009CE32F /* EditButtonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F902892BD7E009CE32F /* EditButtonsModel.swift */; };
+		EA3A1FCE2899456C009CE32F /* allSymbols.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1FCD2899456C009CE32F /* allSymbols.txt */; };
+		EA3A1FD028994630009CE32F /* SFSymbolsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1FCF28994630009CE32F /* SFSymbolsList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA3A1F6E2892BAA9009CE32F /* WatanabeDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatanabeDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3A1F712892BAA9009CE32F /* WatanabeDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatanabeDesignApp.swift; sourceTree = "<group>"; };
+		EA3A1F732892BAA9009CE32F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA3A1F752892BAAA009CE32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3A1F782892BAAA009CE32F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA3A1F7F2892BB3D009CE32F /* ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
+		EA3A1F822892BB63009CE32F /* ControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerModel.swift; sourceTree = "<group>"; };
+		EA3A1F842892BC6A009CE32F /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		EA3A1F862892BCD5009CE32F /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		EA3A1F882892BCE1009CE32F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		EA3A1F8A2892BCFD009CE32F /* EditButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonsView.swift; sourceTree = "<group>"; };
+		EA3A1F8E2892BD67009CE32F /* LayoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutModel.swift; sourceTree = "<group>"; };
+		EA3A1F902892BD7E009CE32F /* EditButtonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonsModel.swift; sourceTree = "<group>"; };
+		EA3A1FCD2899456C009CE32F /* allSymbols.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = allSymbols.txt; sourceTree = "<group>"; };
+		EA3A1FCF28994630009CE32F /* SFSymbolsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3A1F6B2892BAA9009CE32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3A1F652892BAA9009CE32F = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F702892BAA9009CE32F /* WatanabeDesign */,
+				EA3A1F6F2892BAA9009CE32F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3A1F6F2892BAA9009CE32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F6E2892BAA9009CE32F /* WatanabeDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3A1F702892BAA9009CE32F /* WatanabeDesign */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F712892BAA9009CE32F /* WatanabeDesignApp.swift */,
+				EA3A1F732892BAA9009CE32F /* ContentView.swift */,
+				EA3A1F8D2892BD29009CE32F /* Layout */,
+				EA3A1F862892BCD5009CE32F /* LayoutView.swift */,
+				EA3A1F8E2892BD67009CE32F /* LayoutModel.swift */,
+				EA3A1F8C2892BD02009CE32F /* Edit */,
+				EA3A1F812892BB41009CE32F /* Controller */,
+				EA3A1F922892BD9A009CE32F /* Shape */,
+				EA3A1F752892BAAA009CE32F /* Assets.xcassets */,
+				EA3A1F772892BAAA009CE32F /* Preview Content */,
+			);
+			path = WatanabeDesign;
+			sourceTree = "<group>";
+		};
+		EA3A1F772892BAAA009CE32F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F782892BAAA009CE32F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA3A1F812892BB41009CE32F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F7F2892BB3D009CE32F /* ControllerView.swift */,
+				EA3A1F822892BB63009CE32F /* ControllerModel.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EA3A1F8C2892BD02009CE32F /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F882892BCE1009CE32F /* EditView.swift */,
+				EA3A1FCF28994630009CE32F /* SFSymbolsList.swift */,
+				EA3A1F8A2892BCFD009CE32F /* EditButtonsView.swift */,
+				EA3A1F902892BD7E009CE32F /* EditButtonsModel.swift */,
+				EA3A1FCD2899456C009CE32F /* allSymbols.txt */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		EA3A1F8D2892BD29009CE32F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		EA3A1F922892BD9A009CE32F /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F842892BC6A009CE32F /* ShapeView.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3A1F6D2892BAA9009CE32F /* WatanabeDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3A1F7C2892BAAA009CE32F /* Build configuration list for PBXNativeTarget "WatanabeDesign" */;
+			buildPhases = (
+				EA3A1F6A2892BAA9009CE32F /* Sources */,
+				EA3A1F6B2892BAA9009CE32F /* Frameworks */,
+				EA3A1F6C2892BAA9009CE32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatanabeDesign;
+			productName = WatanabeDesign;
+			productReference = EA3A1F6E2892BAA9009CE32F /* WatanabeDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3A1F662892BAA9009CE32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA3A1F6D2892BAA9009CE32F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA3A1F692892BAA9009CE32F /* Build configuration list for PBXProject "WatanabeDesign" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3A1F652892BAA9009CE32F;
+			productRefGroup = EA3A1F6F2892BAA9009CE32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3A1F6D2892BAA9009CE32F /* WatanabeDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3A1F6C2892BAA9009CE32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A1F792892BAAA009CE32F /* Preview Assets.xcassets in Resources */,
+				EA3A1F762892BAAA009CE32F /* Assets.xcassets in Resources */,
+				EA3A1FCE2899456C009CE32F /* allSymbols.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3A1F6A2892BAA9009CE32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A1F8B2892BCFD009CE32F /* EditButtonsView.swift in Sources */,
+				EA3A1F852892BC6A009CE32F /* ShapeView.swift in Sources */,
+				EA3A1F8F2892BD67009CE32F /* LayoutModel.swift in Sources */,
+				EA3A1F912892BD7E009CE32F /* EditButtonsModel.swift in Sources */,
+				EA3A1F742892BAA9009CE32F /* ContentView.swift in Sources */,
+				EA3A1F872892BCD5009CE32F /* LayoutView.swift in Sources */,
+				EA3A1F832892BB63009CE32F /* ControllerModel.swift in Sources */,
+				EA3A1F892892BCE1009CE32F /* EditView.swift in Sources */,
+				EA3A1F722892BAA9009CE32F /* WatanabeDesignApp.swift in Sources */,
+				EA3A1F802892BB3D009CE32F /* ControllerView.swift in Sources */,
+				EA3A1FD028994630009CE32F /* SFSymbolsList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA3A1F7A2892BAAA009CE32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3A1F7B2892BAAA009CE32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3A1F7D2892BAAA009CE32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatanabeDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = DN9W3Q5C4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.WatanabeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3A1F7E2892BAAA009CE32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatanabeDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = DN9W3Q5C4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.WatanabeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3A1F692892BAA9009CE32F /* Build configuration list for PBXProject "WatanabeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3A1F7A2892BAAA009CE32F /* Debug */,
+				EA3A1F7B2892BAAA009CE32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3A1F7C2892BAAA009CE32F /* Build configuration list for PBXNativeTarget "WatanabeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3A1F7D2892BAAA009CE32F /* Debug */,
+				EA3A1F7E2892BAAA009CE32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3A1F662892BAA9009CE32F /* Project object */;
+}
