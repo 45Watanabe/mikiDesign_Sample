@@ -1,6 +1,6 @@
 # Name
 
-mikiDesign W
+### mikiDesign W
 
 # DEMO
 
@@ -27,7 +27,14 @@ mikiDesign W
 
 # Note
 
-注意点などがあれば書く
+###今後の展望、予定    
+・色のカスタム機能の追加に伴う色の指定の方式を変更。    
+・制作したレイアウトの保存を可能に。    
+・本アプリ(プロトタイプ)の完成、コーディングの見直し。
+・ホーム画面、どれを編集するか選択する画面の追加。    
+
+・(Firebase経由でオンライン上にデザインを共有)    
+・リリースする際は、アプリ名、アイコンを独自のものに変更。    
 
 # Author
 
@@ -36,10 +43,5 @@ mikiDesign W
 * 21cm0145@jec.ac.jp
 
 # License
-ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+"mikiDesign W" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
